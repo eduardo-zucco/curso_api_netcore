@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = Data
-build_property.ProjectDir = C:\curso_api_netcore\src\Api.Data\
+build_property.ProjectDir = C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
