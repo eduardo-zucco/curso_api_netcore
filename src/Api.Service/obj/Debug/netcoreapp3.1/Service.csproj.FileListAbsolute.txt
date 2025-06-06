@@ -20,10 +20,12 @@ C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\netcoreapp3.1\
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.dll
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.pdb
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\bin\Debug\netcoreapp3.1\Data.pdb
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.sourcelink.json
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.Up2Date
