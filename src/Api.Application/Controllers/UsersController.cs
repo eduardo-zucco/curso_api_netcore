@@ -82,7 +82,48 @@ namespace Api.Application.Controllers
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message); // 500 codigo de erro interno
             }
         }
-        
+        [HttpPut]
+        public async Task<ActionResult> Put([FromBody] UserEntity user)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // 400 codigo de solicitacao invalida
+            }
+
+            try
+            {
+                var result = await _service.Put(user);
+                if (result != null)
+                {
+                    return Ok(result); // 201 codigo de criado
+                }
+                else
+                {
+                    return BadRequest(); // 400 codigo de solicitacao invalida
+                }
+            }
+            catch (ArgumentException e)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message); // 500 codigo de erro interno
+            }
+
+        }
+        [HttpDelete ("{id}")]
+         public async Task<ActionResult> Delete(Guid id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // 400 codigo de solicitacao invalida
+            }
+            try
+            {
+                return Ok(await _service.Delete(id)); // 200 codigo de sucesso
+            }
+            catch (ArgumentException e)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message); // 500 codigo de erro interno
+            }
+        }
 
     }
 }

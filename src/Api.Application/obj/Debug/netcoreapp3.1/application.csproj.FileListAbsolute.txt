@@ -144,7 +144,11 @@ C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.dll
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.pdb
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.genruntimeconfig.cache
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\netcoreapp3.1\application.StaticWebAssets.xml
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.sourcelink.json
