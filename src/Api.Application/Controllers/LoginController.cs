@@ -3,6 +3,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Api.Domain.Dtos;
 using Api.Domain.Interfaces.Services.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
@@ -11,6 +12,7 @@ namespace Api.Application.Controllers
     [Route("api/[controller]")]
     public class LoginController : ControllerBase
     {
+        [AllowAnonymous] // Permite acesso sem autenticação
         [HttpPost]
         public async Task<object> Login([FromBody] LoginDto loginDto, [FromServices] ILoginService service)
         {
@@ -38,9 +40,7 @@ namespace Api.Application.Controllers
             catch (ArgumentException e)
             {
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message); // 500 codigo de erro interno
-            }
-           
-            
+            }            
         }
         
     }
