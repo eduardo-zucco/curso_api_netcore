@@ -27,5 +27,7 @@ C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Dat
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.sourcelink.json
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.Up2Date
