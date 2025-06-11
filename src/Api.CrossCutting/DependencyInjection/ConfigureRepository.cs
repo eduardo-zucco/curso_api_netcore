@@ -20,7 +20,8 @@ namespace Api.CrossCutting.DependencyInjection
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
 
             serviceCollection.AddDbContext<MyContext>(options =>
-                options.UseMySql("Server=localhost;Port=3306;Database=CourseApi;Uid=root;Pwd=DevSysth2025@;"));
+                //options.UseMySql("Server=localhost;Port=3306;Database=CourseApi;Uid=root;Pwd=DevSysth2025@;"));
+                options.UseSqlServer("Server=.\\SQLEXPRESS2022;Initial Catalog=CourseApi; MultipleActiveResultSets=True;User Id=sa;Password=DevSysth2025@;"));
         }
     }
 }
