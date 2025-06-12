@@ -10,16 +10,13 @@ namespace Api.Data.Context
         public MyContext CreateDbContext(string[] args)
         {
             // usado para criar o banco de dados via migrations
-            //var connectionString = "Server=localhost;Port=3306;Database=CourseApi;Uid=root;Pwd=DevSysth2025@;";
-            var connectionString = "Server=.\\SQLEXPRESS2022;Initial Catalog=CourseApi; MultipleActiveResultSets=True;User Id=sa;Password=DevSysth2025@;";
+            var connectionString = "Server=localhost;Port=3306;Database=CourseApi2;Uid=root;Pwd=DevSysth2025@;";
+            //var connectionString = "Server=.\\SQLEXPRESS2022;Initial Catalog=CourseApi; MultipleActiveResultSets=True;User Id=sa;Password=DevSysth2025@;";
 
             var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
-            //optionsBuilder.UseMySql(connectionString);
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseMySql(connectionString);
+            //optionsBuilder.UseSqlServer(connectionString);
             return new MyContext(optionsBuilder.Options);
-        }
-    
-        
-        
+        }               
     }
 }

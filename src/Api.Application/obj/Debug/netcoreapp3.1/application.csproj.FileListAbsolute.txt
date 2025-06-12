@@ -150,13 +150,7 @@ C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\netcoreapp
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\netcoreapp3.1\application.StaticWebAssets.xml
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.sourcelink.json
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\staticwebassets\application.StaticWebAssets.Pack.cache
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.application.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.application.props
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.application.props
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.application.props
-C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\applicat.45FA8C82.Up2Date
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.csprojAssemblyReference.cache
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\application.csproj.CopyComplete
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Application\obj\Debug\netcoreapp3.1\staticwebassets\application.StaticWebAssets.xml

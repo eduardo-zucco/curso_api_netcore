@@ -10,6 +10,7 @@ using Api.Domain.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
+
 namespace Api.CrossCutting.DependencyInjection
 {
     public class ConfigureRepository
@@ -19,9 +20,21 @@ namespace Api.CrossCutting.DependencyInjection
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
 
-            serviceCollection.AddDbContext<MyContext>(options =>
-                //options.UseMySql("Server=localhost;Port=3306;Database=CourseApi;Uid=root;Pwd=DevSysth2025@;"));
-                options.UseSqlServer("Server=.\\SQLEXPRESS2022;Initial Catalog=CourseApi; MultipleActiveResultSets=True;User Id=sa;Password=DevSysth2025@;"));
-        }
+            if (Environment.GetEnvironmentVariable("DATABASE").ToLower() == "SQLSERVER".ToLower())
+            {
+                serviceCollection.AddDbContext<MyContext>(options =>
+                    options.UseSqlServer(Environment.GetEnvironmentVariable("DB_CONNECTION"))
+                );
+
+            }
+            else
+            {
+                serviceCollection.AddDbContext<MyContext>(options =>
+                    options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"))
+                );
+            } 
+              
+
+        }    
     }
 }
