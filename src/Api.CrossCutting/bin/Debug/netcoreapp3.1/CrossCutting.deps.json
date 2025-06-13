@@ -989,10 +989,7 @@
           "Pomelo.EntityFrameworkCore.MySql": "3.1.1"
         },
         "runtime": {
-          "Data.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Data.dll": {}
         }
       },
       "Domain/1.0.0": {
@@ -1000,10 +997,7 @@
           "System.IdentityModel.Tokens.Jwt": "6.7.1"
         },
         "runtime": {
-          "Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Domain.dll": {}
         }
       },
       "Service/1.0.0": {
@@ -1013,10 +1007,7 @@
           "Domain": "1.0.0"
         },
         "runtime": {
-          "Service.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Service.dll": {}
         }
       }
     }

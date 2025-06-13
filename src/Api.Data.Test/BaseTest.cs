@@ -22,7 +22,7 @@ namespace Api.Data.Test
         {
             var serviceCollection = new ServiceCollection();
             serviceCollection.AddDbContext<MyContext>(
-                o => o.UseMySql($"Persistent Security Info =True;Server=localhost;Database={dataBaseName};User=root;Password=DevSysth2025@;"),
+                o => o.UseMySql($"Persist Security Info=True;Server=localhost;Database={dataBaseName};User=root;Password=DevSysth2025@;"),
                     ServiceLifetime.Transient
             );
             ServiceProvider = serviceCollection.BuildServiceProvider();
@@ -36,6 +36,7 @@ namespace Api.Data.Test
             using (var context = ServiceProvider.GetService<MyContext>())
             {
                 context.Database.EnsureDeleted();
+                
             }
         }
     }

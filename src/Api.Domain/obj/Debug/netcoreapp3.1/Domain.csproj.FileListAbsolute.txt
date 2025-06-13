@@ -15,6 +15,4 @@ C:\Users\User\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\D
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-c:\Users\User\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache
-c:\Users\User\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\User\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.sourcelink.json
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache

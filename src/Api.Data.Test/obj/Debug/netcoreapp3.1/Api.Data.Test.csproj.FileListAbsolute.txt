@@ -144,7 +144,5 @@ C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.pdb
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.genruntimeconfig.cache
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
-c:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csproj.AssemblyReference.cache
-c:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.sourcelink.json
-c:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.18F3BEEA.Up2Date
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csprojAssemblyReference.cache
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csproj.CopyComplete

@@ -2,18 +2,24 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build",
+      "label": "build-api",
       "command": "dotnet",
+      "type": "process",
       "args": [
         "build",
         "${workspaceFolder}/src/Api.Application/Api.Application.csproj"
       ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-tests",
+      "command": "dotnet",
       "type": "process",
-      "problemMatcher": "$msCompile",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
+      "args": [
+        "build",
+        "${workspaceFolder}/src/Api.Data.Test/Api.Data.Test.csproj"
+      ],
+      "problemMatcher": "$msCompile"
     }
   ]
 }

@@ -29,7 +29,5 @@ C:\Users\User\Desktop\curso_api_netcore\src\Api.CrossCutting\obj\Debug\netcoreap
 C:\Users\User\Desktop\curso_api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\curso_api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.dll
 C:\Users\User\Desktop\curso_api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.pdb
-c:\Users\User\Desktop\curso_api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.AssemblyReference.cache
-c:\Users\User\Desktop\curso_api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\User\Desktop\curso_api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.sourcelink.json
-c:\Users\User\Desktop\curso_api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCut.C7E4F570.Up2Date
+C:\Users\User\Desktop\curso_api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csprojAssemblyReference.cache
+C:\Users\User\Desktop\curso_api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CopyComplete
