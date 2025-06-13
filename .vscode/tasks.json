@@ -7,16 +7,16 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/src/Api.Application/Api.Application.csproj"
+        "${workspaceFolder}/src/Api.Application/Api.Application.csproj",
       ],
       "problemMatcher": "$msCompile"
     },
     {
-      "label": "build-tests",
+      "label": "Data.Tests",
       "command": "dotnet",
       "type": "process",
       "args": [
-        "build",
+        "test",
         "${workspaceFolder}/src/Api.Data.Test/Api.Data.Test.csproj"
       ],
       "problemMatcher": "$msCompile"

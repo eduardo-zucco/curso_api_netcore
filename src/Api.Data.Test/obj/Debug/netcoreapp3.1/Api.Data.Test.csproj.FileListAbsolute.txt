@@ -146,3 +146,5 @@ C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csprojAssemblyReference.cache
 C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csproj.CopyComplete
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Faker.NETCore.dll
+C:\Users\User\Desktop\curso_api_netcore\src\Api.Data.Test\bin\Debug\netcoreapp3.1\de-DE\Faker.NETCore.resources.dll
