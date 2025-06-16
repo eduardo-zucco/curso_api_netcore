@@ -19,5 +19,10 @@ namespace Api.Domain.Dtos.User
         [EmailAddress(ErrorMessage = "Email inválido")]
         [StringLength(100, ErrorMessage = "Email deve ter no máximo {1} caracteres")]
         public string Email { get; set; }
+
+        public static implicit operator UserDtoUpdate(UserDtoCreate v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

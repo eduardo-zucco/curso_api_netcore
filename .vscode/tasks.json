@@ -12,12 +12,22 @@
       "problemMatcher": "$msCompile"
     },
     {
-      "label": "Data.Tests",
+      "label": "Data.Testes",
       "command": "dotnet",
       "type": "process",
       "args": [
         "test",
         "${workspaceFolder}/src/Api.Data.Test/Api.Data.Test.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Service.Testes",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "test",
+        "${workspaceFolder}/src/Api.Service.Test/Api.Service.Test.csproj"
       ],
       "problemMatcher": "$msCompile"
     }
