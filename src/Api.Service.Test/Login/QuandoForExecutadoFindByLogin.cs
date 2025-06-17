@@ -2,16 +2,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Api.Domain.Dtos;
 using Api.Domain.Interfaces.Services.User;
 using Moq;
 using Xunit;
+using Api.Service.Services;
 
 namespace Api.Service.Test.Login
 {
     public class QuandoForExecutadoFindByLogin
     {
-        private IUserService _service;
-        private Mock<IUserService> _serviceMock;
+        private ILoginService _service;
+        private Mock<ILoginService> _serviceMock;
 
         [Fact(DisplayName = "É Possível Executar o Método FindByLogin.")]
         public async Task E_Possivel_Executar_Metodo_FindByLogin()
@@ -27,7 +29,21 @@ namespace Api.Service.Test.Login
                 name = Faker.Name.FullName(),
                 message = "Usuário logado com sucesso"
             };
-            
+
+
+            var loginDto = new LoginDto
+            {
+                Email = email
+            };
+            _serviceMock = new Mock<ILoginService>();
+
+            _serviceMock.Setup(m => m.FindByLogin(loginDto)).ReturnsAsync(objectRetorno);
+
+            _service = _serviceMock.Object;
+
+            var result = await _service.FindByLogin(loginDto);
+            Assert.NotNull(result);
+
         }
 
         
