@@ -14,7 +14,10 @@
         "ASPNETCORE_ENVIRONMENT": "Development",
         "DB_CONNECTION": "Server=localhost;Port=3306;Database=CourseApi3;Uid=root;Pwd=DevSysth2025@;",
         "DATABASE": "MYSQL",
-        "MIGRATION": "APLICAR"
+        "MIGRATION": "APLICAR",
+        "Audience": "ExemploAudience",
+        "Issuer": "ExemploIssuer",
+        "Seconds": "28800"
       },
       "launchBrowser": {
         "enabled": true,
@@ -31,7 +34,10 @@
       "stopAtEntry": false,
       "env": {
         "DB_CONNECTION": "Server=localhost;Port=3306;Database=CourseApi3Test;Uid=root;Pwd=DevSysth2025@;",
-        "DATABASE": "MYSQL"
+        "DATABASE": "MYSQL",
+        "Audience": "ExemploAudience",
+        "Issuer": "ExemploIssuer",
+        "Seconds": "28800"
       },
       "console": "internalConsole"
     },
@@ -52,7 +58,10 @@
       "console": "internalConsole",
       "internalConsoleOptions": "openOnSessionStart",
       "env": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Audience": "ExemploAudience", 
+        "Issuer": "ExemploIssuer",
+        "Seconds": "28800"
       }
     }
   ]

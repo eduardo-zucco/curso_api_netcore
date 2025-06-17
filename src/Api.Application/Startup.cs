@@ -24,16 +24,29 @@ namespace application
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IWebHostEnvironment environment)
         {
             Configuration = configuration;
+            _environment = environment;
         }
 
         public IConfiguration Configuration { get; }
+        public IWebHostEnvironment _environment { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            if (_environment.IsEnvironment("Testing"))
+            {
+                Environment.SetEnvironmentVariable("DB_CONNECTION", "Server=localhost;Port=3306;Database=CourseApi_Integration;Uid=root;Pwd=DevSysth2025@;");
+                Environment.SetEnvironmentVariable("DATABASE", "MYSQL"); 
+                Environment.SetEnvironmentVariable("MIGRATION", "APLICAR");
+                Environment.SetEnvironmentVariable("Audience", "ExemploAudience");
+                Environment.SetEnvironmentVariable("Issuer", "ExemploIssuer");
+                Environment.SetEnvironmentVariable("Seconds", "28800");
+
+            }
             
             services.AddControllers();
             ConfigureService.ConfigureDependenciesService(services);
