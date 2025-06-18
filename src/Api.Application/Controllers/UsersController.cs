@@ -54,7 +54,12 @@ namespace Api.Application.Controllers
             }
             try
             {
-                return Ok(await _service.Get(id)); // 200 codigo de sucesso
+                var result = await _service.Get(id);
+                if (result == null)
+                {
+                    return NotFound();
+                }
+                return Ok(result); // 200 codigo de sucesso
             }
             catch (ArgumentException e)
             {
