@@ -15,6 +15,6 @@ namespace Api.Domain.Entities
         [Required]
         public Guid UfId { get; set; }
         public UfEntity Uf { get; set; }
-           
+        public IEnumerable<CepEntity> Ceps { get; set; }    
     }
 }
