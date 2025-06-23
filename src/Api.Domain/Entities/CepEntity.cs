@@ -14,7 +14,7 @@ namespace Api.Domain.Entities
         [Required]
         [MaxLength(60)]
         public string Logradouro { get; set; }
-        [MaxLength(10)]
+        [MaxLength(40)]
         public string Numero { get; set; }
         [Required]
         public Guid MunicipioId { get; set; }
