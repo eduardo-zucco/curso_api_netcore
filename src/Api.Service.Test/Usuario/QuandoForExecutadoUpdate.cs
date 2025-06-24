@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Api.Domain.Interfaces.Services.User;
 using Moq;
@@ -13,7 +10,7 @@ namespace Api.Service.Test.Usuario
         private IUserService _service;
         private Mock<IUserService> _serviceMock;
 
-        [Fact(DisplayName = "É Possível Executar o Método Update.")]
+        [Fact(DisplayName = "É Possivel executar o Método Update.")]
         public async Task E_Possivel_Executar_Metodo_Update()
         {
             _serviceMock = new Mock<IUserService>();
@@ -33,8 +30,6 @@ namespace Api.Service.Test.Usuario
             Assert.NotNull(resultUpdate);
             Assert.Equal(NomeUsuarioAlterado, resultUpdate.Name);
             Assert.Equal(EmailUsuarioAlterado, resultUpdate.Email);
-
-
 
         }
     }

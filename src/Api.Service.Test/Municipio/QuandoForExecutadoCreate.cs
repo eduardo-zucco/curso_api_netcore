@@ -25,8 +25,6 @@ namespace Api.Service.Test.Municipio
             Assert.Equal(NomeMunicipio, result.Nome);
             Assert.Equal(CodigoIBGEMunicipio, result.CodIBGE);
             Assert.Equal(IdUf, result.UfId);
-
-
         }
     }
 }

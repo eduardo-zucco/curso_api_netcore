@@ -66,8 +66,7 @@ namespace Api.Application.Controllers
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message); // 500 codigo de erro interno
             }
         }
-
-        [Authorize("Bearer")]
+        [AllowAnonymous] 
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] UserDtoCreate user)
         {
