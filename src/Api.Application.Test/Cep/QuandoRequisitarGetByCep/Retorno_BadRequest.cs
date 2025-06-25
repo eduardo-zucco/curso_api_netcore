@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Api.Application.Controllers;
+using Api.Domain.Dtos.Cep;
+using Api.Domain.Interfaces.Services.Cep;
+using Microsoft.AspNetCore.Mvc;
+using Moq;
+using Xunit;
+
+namespace Api.Application.Test.Cep.QuandoRequisitarGetByCep
+{
+    public class Retorno_BadRequest
+    {
+        private CepsController _controller;
+        [Fact(DisplayName = "É Possível Realizar o Get.")]
+        public async Task E_Possivel_Invocar_a_Controller_Get()
+        {
+            var serviceMock = new Mock<ICepService>();
+
+            serviceMock.Setup(m => m.Get(It.IsAny<string>())).ReturnsAsync(
+               new CepDto
+               {
+                   Id = Guid.NewGuid(),
+                   Cep = "123.456",
+               }
+           );
+            _controller = new CepsController(serviceMock.Object);
+            _controller.ModelState.AddModelError("Nome", "É um Campo Obrigatório");
+
+            var result = await _controller.Get("ok");
+            Assert.True(result is BadRequestObjectResult);
+
+
+        }
+        
+    }
+}

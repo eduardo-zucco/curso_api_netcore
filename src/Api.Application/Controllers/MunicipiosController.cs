@@ -163,6 +163,24 @@ namespace Api.Application.Controllers
 
         }
 
+        [Authorize("Bearer")]
+        [HttpDelete("{id}")]
+         public async Task<ActionResult> Delete(Guid id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // 400 codigo de solicitacao invalida
+            }
+            try
+            {
+                return Ok(await _service.Delete(id)); // 200 codigo de sucesso
+            }
+            catch (ArgumentException e)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message); // 500 codigo de erro interno
+            }
+        }
+
 
 
 

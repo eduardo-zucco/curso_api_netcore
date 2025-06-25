@@ -16,11 +16,10 @@ namespace Api.Application.Controllers
     public class UfsController : ControllerBase
     {
         public IUfService _service { get; set; }
-        private readonly ILogger<UfsController> _logger;
+        
 
-        public UfsController(ILogger<UfsController> logger, IUfService service)
+        public UfsController(IUfService service)
         {
-            _logger = logger;
             _service = service;
         }
 
